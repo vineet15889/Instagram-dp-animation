@@ -15,6 +15,9 @@
 		088F025F2646942400D19D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088F025D2646942400D19D24 /* LaunchScreen.storyboard */; };
 		088F026A2646942400D19D24 /* Instagram_dp_animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02692646942400D19D24 /* Instagram_dp_animationTests.swift */; };
 		088F02752646942400D19D24 /* Instagram_dp_animationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02742646942400D19D24 /* Instagram_dp_animationUITests.swift */; };
+		088F02862646946500D19D24 /* StoryDPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02852646946500D19D24 /* StoryDPView.swift */; };
+		088F02872646946500D19D24 /* StoryDPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02852646946500D19D24 /* StoryDPView.swift */; };
+		088F02882646946500D19D24 /* StoryDPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02852646946500D19D24 /* StoryDPView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		088F02702646942400D19D24 /* Instagram dp animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram dp animationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		088F02742646942400D19D24 /* Instagram_dp_animationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_dp_animationUITests.swift; sourceTree = "<group>"; };
 		088F02762646942400D19D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088F02852646946500D19D24 /* StoryDPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			children = (
 				088F02522646942100D19D24 /* AppDelegate.swift */,
 				088F02542646942100D19D24 /* SceneDelegate.swift */,
+				088F02852646946500D19D24 /* StoryDPView.swift */,
 				088F02562646942100D19D24 /* ViewController.swift */,
 				088F02582646942100D19D24 /* Main.storyboard */,
 				088F025B2646942400D19D24 /* Assets.xcassets */,
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088F02862646946500D19D24 /* StoryDPView.swift in Sources */,
 				088F02572646942100D19D24 /* ViewController.swift in Sources */,
 				088F02532646942100D19D24 /* AppDelegate.swift in Sources */,
 				088F02552646942100D19D24 /* SceneDelegate.swift in Sources */,
@@ -268,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088F02872646946500D19D24 /* StoryDPView.swift in Sources */,
 				088F026A2646942400D19D24 /* Instagram_dp_animationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088F02882646946500D19D24 /* StoryDPView.swift in Sources */,
 				088F02752646942400D19D24 /* Instagram_dp_animationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
