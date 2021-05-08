@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088F02532646942100D19D24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02522646942100D19D24 /* AppDelegate.swift */; };
+		088F02552646942100D19D24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02542646942100D19D24 /* SceneDelegate.swift */; };
+		088F02572646942100D19D24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02562646942100D19D24 /* ViewController.swift */; };
+		088F025A2646942100D19D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088F02582646942100D19D24 /* Main.storyboard */; };
+		088F025C2646942400D19D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088F025B2646942400D19D24 /* Assets.xcassets */; };
+		088F025F2646942400D19D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088F025D2646942400D19D24 /* LaunchScreen.storyboard */; };
+		088F026A2646942400D19D24 /* Instagram_dp_animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02692646942400D19D24 /* Instagram_dp_animationTests.swift */; };
+		088F02752646942400D19D24 /* Instagram_dp_animationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02742646942400D19D24 /* Instagram_dp_animationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088F02662646942400D19D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088F02472646942100D19D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088F024E2646942100D19D24;
+			remoteInfo = "Instagram dp animation";
+		};
+		088F02712646942400D19D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088F02472646942100D19D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088F024E2646942100D19D24;
+			remoteInfo = "Instagram dp animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088F024F2646942100D19D24 /* Instagram dp animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram dp animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		088F02522646942100D19D24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		088F02542646942100D19D24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		088F02562646942100D19D24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		088F02592646942100D19D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		088F025B2646942400D19D24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		088F025E2646942400D19D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		088F02602646942400D19D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088F02652646942400D19D24 /* Instagram dp animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram dp animationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		088F02692646942400D19D24 /* Instagram_dp_animationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_dp_animationTests.swift; sourceTree = "<group>"; };
+		088F026B2646942400D19D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088F02702646942400D19D24 /* Instagram dp animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram dp animationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		088F02742646942400D19D24 /* Instagram_dp_animationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_dp_animationUITests.swift; sourceTree = "<group>"; };
+		088F02762646942400D19D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088F024C2646942100D19D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088F02622646942400D19D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088F026D2646942400D19D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088F02462646942100D19D24 = {
+			isa = PBXGroup;
+			children = (
+				088F02512646942100D19D24 /* Instagram dp animation */,
+				088F02682646942400D19D24 /* Instagram dp animationTests */,
+				088F02732646942400D19D24 /* Instagram dp animationUITests */,
+				088F02502646942100D19D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		088F02502646942100D19D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088F024F2646942100D19D24 /* Instagram dp animation.app */,
+				088F02652646942400D19D24 /* Instagram dp animationTests.xctest */,
+				088F02702646942400D19D24 /* Instagram dp animationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088F02512646942100D19D24 /* Instagram dp animation */ = {
+			isa = PBXGroup;
+			children = (
+				088F02522646942100D19D24 /* AppDelegate.swift */,
+				088F02542646942100D19D24 /* SceneDelegate.swift */,
+				088F02562646942100D19D24 /* ViewController.swift */,
+				088F02582646942100D19D24 /* Main.storyboard */,
+				088F025B2646942400D19D24 /* Assets.xcassets */,
+				088F025D2646942400D19D24 /* LaunchScreen.storyboard */,
+				088F02602646942400D19D24 /* Info.plist */,
+			);
+			path = "Instagram dp animation";
+			sourceTree = "<group>";
+		};
+		088F02682646942400D19D24 /* Instagram dp animationTests */ = {
+			isa = PBXGroup;
+			children = (
+				088F02692646942400D19D24 /* Instagram_dp_animationTests.swift */,
+				088F026B2646942400D19D24 /* Info.plist */,
+			);
+			path = "Instagram dp animationTests";
+			sourceTree = "<group>";
+		};
+		088F02732646942400D19D24 /* Instagram dp animationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				088F02742646942400D19D24 /* Instagram_dp_animationUITests.swift */,
+				088F02762646942400D19D24 /* Info.plist */,
+			);
+			path = "Instagram dp animationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088F024E2646942100D19D24 /* Instagram dp animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088F02792646942400D19D24 /* Build configuration list for PBXNativeTarget "Instagram dp animation" */;
+			buildPhases = (
+				088F024B2646942100D19D24 /* Sources */,
+				088F024C2646942100D19D24 /* Frameworks */,
+				088F024D2646942100D19D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Instagram dp animation";
+			productName = "Instagram dp animation";
+			productReference = 088F024F2646942100D19D24 /* Instagram dp animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		088F02642646942400D19D24 /* Instagram dp animationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088F027C2646942400D19D24 /* Build configuration list for PBXNativeTarget "Instagram dp animationTests" */;
+			buildPhases = (
+				088F02612646942400D19D24 /* Sources */,
+				088F02622646942400D19D24 /* Frameworks */,
+				088F02632646942400D19D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088F02672646942400D19D24 /* PBXTargetDependency */,
+			);
+			name = "Instagram dp animationTests";
+			productName = "Instagram dp animationTests";
+			productReference = 088F02652646942400D19D24 /* Instagram dp animationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		088F026F2646942400D19D24 /* Instagram dp animationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088F027F2646942400D19D24 /* Build configuration list for PBXNativeTarget "Instagram dp animationUITests" */;
+			buildPhases = (
+				088F026C2646942400D19D24 /* Sources */,
+				088F026D2646942400D19D24 /* Frameworks */,
+				088F026E2646942400D19D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088F02722646942400D19D24 /* PBXTargetDependency */,
+			);
+			name = "Instagram dp animationUITests";
+			productName = "Instagram dp animationUITests";
+			productReference = 088F02702646942400D19D24 /* Instagram dp animationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088F02472646942100D19D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					088F024E2646942100D19D24 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					088F02642646942400D19D24 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 088F024E2646942100D19D24;
+					};
+					088F026F2646942400D19D24 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 088F024E2646942100D19D24;
+					};
+				};
+			};
+			buildConfigurationList = 088F024A2646942100D19D24 /* Build configuration list for PBXProject "Instagram dp animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 088F02462646942100D19D24;
+			productRefGroup = 088F02502646942100D19D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088F024E2646942100D19D24 /* Instagram dp animation */,
+				088F02642646942400D19D24 /* Instagram dp animationTests */,
+				088F026F2646942400D19D24 /* Instagram dp animationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088F024D2646942100D19D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088F025F2646942400D19D24 /* LaunchScreen.storyboard in Resources */,
+				088F025C2646942400D19D24 /* Assets.xcassets in Resources */,
+				088F025A2646942100D19D24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088F02632646942400D19D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088F026E2646942400D19D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088F024B2646942100D19D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088F02572646942100D19D24 /* ViewController.swift in Sources */,
+				088F02532646942100D19D24 /* AppDelegate.swift in Sources */,
+				088F02552646942100D19D24 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088F02612646942400D19D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088F026A2646942400D19D24 /* Instagram_dp_animationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088F026C2646942400D19D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088F02752646942400D19D24 /* Instagram_dp_animationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		088F02672646942400D19D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088F024E2646942100D19D24 /* Instagram dp animation */;
+			targetProxy = 088F02662646942400D19D24 /* PBXContainerItemProxy */;
+		};
+		088F02722646942400D19D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088F024E2646942100D19D24 /* Instagram dp animation */;
+			targetProxy = 088F02712646942400D19D24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		088F02582646942100D19D24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088F02592646942100D19D24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		088F025D2646942400D19D24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088F025E2646942400D19D24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		088F02772646942400D19D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		088F02782646942400D19D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088F027A2646942400D19D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H39RMB9UU;
+				INFOPLIST_FILE = "Instagram dp animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Instagram-dp-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		088F027B2646942400D19D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H39RMB9UU;
+				INFOPLIST_FILE = "Instagram dp animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Instagram-dp-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		088F027D2646942400D19D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H39RMB9UU;
+				INFOPLIST_FILE = "Instagram dp animationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Instagram-dp-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagram dp animation.app/Instagram dp animation";
+			};
+			name = Debug;
+		};
+		088F027E2646942400D19D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H39RMB9UU;
+				INFOPLIST_FILE = "Instagram dp animationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Instagram-dp-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagram dp animation.app/Instagram dp animation";
+			};
+			name = Release;
+		};
+		088F02802646942400D19D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H39RMB9UU;
+				INFOPLIST_FILE = "Instagram dp animationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Instagram-dp-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Instagram dp animation";
+			};
+			name = Debug;
+		};
+		088F02812646942400D19D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H39RMB9UU;
+				INFOPLIST_FILE = "Instagram dp animationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Instagram-dp-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Instagram dp animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088F024A2646942100D19D24 /* Build configuration list for PBXProject "Instagram dp animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088F02772646942400D19D24 /* Debug */,
+				088F02782646942400D19D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088F02792646942400D19D24 /* Build configuration list for PBXNativeTarget "Instagram dp animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088F027A2646942400D19D24 /* Debug */,
+				088F027B2646942400D19D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088F027C2646942400D19D24 /* Build configuration list for PBXNativeTarget "Instagram dp animationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088F027D2646942400D19D24 /* Debug */,
+				088F027E2646942400D19D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088F027F2646942400D19D24 /* Build configuration list for PBXNativeTarget "Instagram dp animationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088F02802646942400D19D24 /* Debug */,
+				088F02812646942400D19D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088F02472646942100D19D24 /* Project object */;
+}
