@@ -21,8 +21,12 @@ class StoryDPView: UIView {
         self.setupStoryImage(image: image)
         // Draw track
         self.drawGrayTrack()
-        // Draw Gradient
+        // Draw gradient track
         self.drawGradientTrack()
+        // Gradient Layer
+        self.drawGradient()
+        // tap action
+        self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap)))
     }
     
     private func setupStoryImage(image:UIImage){
@@ -56,5 +60,30 @@ class StoryDPView: UIView {
         shapeLayer.lineCap = CAShapeLayerLineCap.round
         shapeLayer.strokeEnd = 0
         self.layer.addSublayer(shapeLayer)
+    }
+    
+    private func drawGradient(){
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
+        gradientLayer.colors = [
+            UIColor.orange.cgColor,
+            UIColor.red.cgColor,
+            UIColor.purple.cgColor,
+            UIColor.blue.cgColor
+        ]
+        gradientLayer.frame = self.bounds
+        self.layer.addSublayer(gradientLayer)
+        gradientLayer.mask = shapeLayer
+    }
+    
+    // Animation on click
+    @objc private func handleTap() {
+        let basicAnimation = CABasicAnimation(keyPath: "strokeEnd")
+        basicAnimation.toValue = 1
+        basicAnimation.duration = 2
+        basicAnimation.fillMode = CAMediaTimingFillMode.forwards
+        basicAnimation.isRemovedOnCompletion = true
+        shapeLayer.add(basicAnimation, forKey: "urSoBasic")
     }
 }
