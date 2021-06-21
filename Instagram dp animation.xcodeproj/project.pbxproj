@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -160,7 +160,6 @@
 				FCF963A09D6F047A547C12C5 /* Pods-Instagram dp animationTests.debug.xcconfig */,
 				378683540532EDBBB8A24758 /* Pods-Instagram dp animationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -595,7 +594,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9H39RMB9UU;
+				DEVELOPMENT_TEAM = 64TW3ZZ3CG;
 				INFOPLIST_FILE = "Instagram dp animation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -615,7 +614,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9H39RMB9UU;
+				DEVELOPMENT_TEAM = 64TW3ZZ3CG;
 				INFOPLIST_FILE = "Instagram dp animation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
