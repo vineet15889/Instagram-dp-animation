@@ -1,7 +1,9 @@
 # Uncomment the next line to define a global platform for your project
  platform :ios, '11.0'
 source 'https://cdn.cocoapods.org/'
-source 'https://omhu-distribution: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@github.com/leoilab/mobile-sdk-distribution'
+#source 'https://dl.cloudsmith.io/TOKEN/OWNER/REPOSITORY/cocoapods/index.git'
+
+source 'https://omhu-distribution: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@github.com/leoilab/mobile-sdk-distribution.git'
 target 'Instagram dp animation' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
