@@ -5,7 +5,6 @@ source 'https://omhu-distribution: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@githu
 target 'Instagram dp animation' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-pod "Color-Picker-for-iOS", "~> 2.0"
 pod 'SuitabilityPredictionClient', '~> 1.0'
   # Pods for Instagram dp animation
 
