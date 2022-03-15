@@ -1,4 +1,5 @@
 PODS:
+  - Color-Picker-for-iOS (2.0.2)
   - OmhuTrackingClient (1.0.0)
   - OpenCV (4.1.0)
   - SuitabilityPredictionClient (1.0.0):
@@ -17,6 +18,7 @@ PODS:
     - TensorFlowLiteSwift/Core (= 2.4.0)
 
 DEPENDENCIES:
+  - Color-Picker-for-iOS (~> 2.0)
   - SuitabilityPredictionClient (~> 1.0)
 
 SPEC REPOS:
@@ -24,17 +26,19 @@ SPEC REPOS:
     - OmhuTrackingClient
     - SuitabilityPredictionClient
   trunk:
+    - Color-Picker-for-iOS
     - OpenCV
     - TensorFlowLiteC
     - TensorFlowLiteSwift
 
 SPEC CHECKSUMS:
+  Color-Picker-for-iOS: 1fe5c2bdad770aff88150393bb920e6718d03535
   OmhuTrackingClient: a98ff332695b6a08679b16cf2d3ece388cb25e96
   OpenCV: 52cd4d72ff29e2be83421477aec5447320b7fb19
   SuitabilityPredictionClient: f141e6cec285e435c0444e10465c7c5205eae359
   TensorFlowLiteC: 09f8ac75a76caeadb19bcfa694e97454cc1ecf87
   TensorFlowLiteSwift: f062dc1178120100d825d7799fd9f115b4a37fee
 
-PODFILE CHECKSUM: cdbc834c1d42bc2c407def1f7cba7ef6c7c9d201
+PODFILE CHECKSUM: b43699550c3ff127632c4940c2f2484bd3d91c0a
 
 COCOAPODS: 1.10.2
